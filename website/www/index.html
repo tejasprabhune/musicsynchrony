@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>synchrony</title>
+        <link rel="stylesheet" href="css/index.css">
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://js-cdn.music.apple.com/musickit/v3/musickit.js" data-web-components async></script>
+        <script src="js/index.js" type="module"></script>
+    </head>
+    <body>
+        <div id="header-div">
+            <h1 id="header-title">synchrony</h1>
+        </div>
+
+        <div id="card-wrapper">
+            <div id="sync-card1" class="card">
+                <h2 id="sync-card1-title" class="card-title">spotify</h2>
+                <h3 id="sync-card1-username-text">username/user id:
+                    <input id="sync-card1-username-input">
+                    <button id="sync-card1-username-button">find playlists</button>
+                </h3>
+                <div id="playlist-wrapper"></div>
+            </div>
+        
+            <div id="sync-card2" class="card">
+                <h2 id="sync-card2-title" class="card-title">apple music</h2>
+                <h3 id="sync-card2-status" class="card-text">status: unauthorized</h3>
+                <button id="sync-card2-authorize-button" class="centered-button">authorize apple music</button>
+                <div id="sync-apple-wrapper"></div>
+            </div>
+        </div>
+    </body>
+</html>

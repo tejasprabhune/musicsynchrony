@@ -1,0 +1,124 @@
+body {
+    background-color: #9CAFB7;
+}
+
+#header-div {
+    margin: auto;
+    padding: 5px;
+
+    background-color: #9CAFB7;
+}
+
+#header-title {
+    text-align: center;
+    font-family: 'Apercu';
+    font-size: 6em;
+    color: white;
+}
+
+.card {
+    background-color: #5a656a;
+    flex: 25%;
+    min-width: 40em;
+    min-height: 30em;
+    margin: 2em 3em 2em 3em;
+    border-radius: 1em;
+    padding-bottom: 2em;
+}
+
+
+#card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-title {
+    font-family: 'Apercu';
+    font-size: 3em;
+    color: #ffffff;
+    text-align: center;
+    margin: 1em;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+}
+
+.card-text {
+    font-family: 'Apercu Light';
+    font-size: 1.3em;
+    color: #ffffff;
+    text-align: center;
+    margin: 1em 5em 1em 5em;
+    padding: 0.5em;
+}
+
+.card-text-selected {
+    background-color: #2e3437;
+}
+
+.card-text-button:hover {
+    /*color: #9CAFB7;*/
+    background-color: #2e3437;
+    cursor: pointer;
+}
+
+#sync-card1-username-text {
+    font-family: 'Apercu Light';
+    font-size: 1.3em;
+    color: #ffffff;
+    text-align: center;
+}
+
+#sync-card1-username-input {
+    margin-left: 1em;
+    padding: 1em;
+    border: 0;
+}
+
+
+button {
+    background-color: #9CAFB7;
+    border: none;
+    color: white;
+    font-family: 'Apercu';
+    padding: 1em;
+    cursor: pointer;
+}
+
+#sync-card2-authorize-button {
+    margin-bottom: 1em;
+}
+
+.centered-button {
+    display: block;
+    margin: 0 auto;
+}
+
+#playlist-wrapper {
+    text-align: center;
+}
+
+button:hover {
+    background-color: #707e83;
+}
+
+#card1-playlists {
+    font-family: 'Apercu Light';
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.playlist-button {
+    display: flex;
+
+}
+
+@font-face {
+    font-family: "Apercu";
+    src: url("../fonts/Apercu\ Medium.otf");
+}
+
+@font-face {
+    font-family: "Apercu Light";
+    src: url("../fonts/Apercu\ Light.otf");
+}
